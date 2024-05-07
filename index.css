@@ -22,7 +22,6 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .getRating {
@@ -30,27 +29,29 @@ body {
 }
 
 .circles {
+    flex-wrap: wrap;
     padding: 16px;
     background: #fff;
     border-radius: 4px;
     box-shadow: 0 0 4px #fff;
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .circle {
-    width: 42px;
-    height: 42px;
-    border: solid;
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    border: 1px solid black;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
     border-radius: 50%;
+    margin: 4px 24px 4px 24px;
 }
 
 .circle.yellow {
